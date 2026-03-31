@@ -1,0 +1,13 @@
+*.meta
+*.unity
+*.prefab
+*.asset
+*.fbx
+*.obj
+*.mat
+*.shader
+*.anim
+*.controller
+*.cs
+*.dll
+*.PY
