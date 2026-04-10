@@ -4,3 +4,5 @@
 4.10根据分类的csv数据文件训练左勾拳动作，目前已训练两个数据集，并上传replay动作和训练之后的动作
 https://github.com/user-attachments/assets/6367964c-cd73-4e1b-991a-be1a109c7cf2
 
+https://github.com/user-attachments/assets/ac41d074-e0b3-4248-8457-aa771b0e4046
+
