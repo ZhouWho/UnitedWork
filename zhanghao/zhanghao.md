@@ -10,5 +10,7 @@ https://github.com/user-attachments/assets/ac41d074-e0b3-4248-8457-aa771b0e4046
 https://github.com/user-attachments/assets/1777cd27-5634-475c-bb78-b76929b2ba5a
 
 https://github.com/user-attachments/assets/c0292fcb-8bd3-4277-ab8d-595894b824ad
+第二个数据集只训练了600w步，实际训练效果和replay动作差距较大，之后继续训练，看是否是训练步数不够导致的
 
+同时调整了奖励函数，原本的奖励函数是线性奖励，我将其改成指数奖励，并对模型进行训练
 
