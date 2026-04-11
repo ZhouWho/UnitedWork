@@ -27,9 +27,6 @@
 ### 运行截图与视频
 ![第二周训练截图1](images/2.1.png)
 ![第二周训练截图2](images/2.2.png)
-
-![第二周训练视频](videos/2.mp4)
-
 https://github.com/user-attachments/assets/9dbde9f3-b4dc-40ec-b584-ac4b85ab41ab
 
 已在code文件夹内上传以下文件：
@@ -55,4 +52,4 @@ https://github.com/user-attachments/assets/9dbde9f3-b4dc-40ec-b584-ac4b85ab41ab
 训练过程中奖励值虽逐步上升，但机器人实际仿真表现很差：执行动作时频繁摔倒，关节抖动剧烈，无法完成连续动作。经过分析，问题根源在于原始代码的控制增益过大、缺乏主动平衡力矩、奖励函数缺少平滑约束，且观察空间信息不足，将会在下周改进奖励函数并重新训练。
 
 运行视频：
-<video src="videos/1.mp4" width="600" controls></video>
+https://github.com/user-attachments/assets/2090a935-ada1-42c0-8ad8-3f4889e1e13f
