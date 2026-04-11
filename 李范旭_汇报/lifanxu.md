@@ -27,8 +27,12 @@
 ### 运行截图与视频
 ![第二周训练截图1](images/2.1.png)
 ![第二周训练截图2](images/2.2.png)
+
 ![第二周训练视频](https://github.com/ZhouWho/UnitedWork/raw/refs/heads/main/%E6%9D%8E%E8%8C%83%E6%97%AD_%E6%B1%87%E6%8A%A5/videos/2.mp4)
+
 ![第二周训练视频](videos/2.mp4)
+
+<video src="videos/2.mp4" width="600" controls></video>
 
 已在code文件夹内上传以下文件：
 
