@@ -13,3 +13,5 @@
 *.PY
 G1mimic1Agent.cs.bak
 G1mimic1Agent.cs.meta
+*.pyc
+*.json
