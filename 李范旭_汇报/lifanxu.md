@@ -40,10 +40,7 @@
 - 将擂台封装为可复用 Prefab 并以 Unity Package 形式完成团队分享，统一了场景资产。
 - 成功将场景接入 G1 模仿学习训练环境，G1 机器人已可在真实擂台内进行对战仿真。
 
-
-打包后的场景资产（`BoxingRing.zip`，约 752 MB）及相关工程文件已上传至项目仓库：
-
-- 项目仓库：[https://github.com/ZhouWho/UnitedWork](https://github.com/ZhouWho/UnitedWork)
+打包后的场景资产（`BoxingRing.zip`，约 752 MB）及相关工程文件已上传至项目仓库。
 
 ### 下周计划
 
