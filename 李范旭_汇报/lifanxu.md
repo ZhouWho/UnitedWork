@@ -144,7 +144,7 @@
 - 完成 v3 重构（RSI + 误差终止 + 纯模仿奖励），并通过 Replay 诊断 + v3.1 平衡奖励解决了"站不稳"问题；
 - 采用五段反向课程成功训练出从全躺起身的策略，机器人能完整起身并稳定站立（见 8.2.mp4）；
 - 产出最终模型 `gewu-7999921(GetUp).onnx`。
-- [训练好的起身onnx模型](models/gewu-7999921(GetUp).onnx)
+- [训练好的起身 onnx 模型](models/gewu-7999921(GetUp).onnx)
 
 **方法学层面的几点关键认识（也是这两周失败迭代换来的）：**
 1. **纯模仿奖励优于任务奖励堆叠**：v1/v2 的失败说明，靠"任务奖励 + 反作弊惩罚"会不断开出可被投机利用的漏洞；把"防作弊"交给参考轨迹本身（不匹配参考即低分）才是根治之道。
@@ -295,7 +295,7 @@ https://github.com/user-attachments/assets/b315ffec-9b5b-4137-9fc2-9a4d4c01ebf5
 
 ### 产出
 - [修改后的控制脚本G1mimic1Agent_RightKick.cs](code/G1mimic1Agent_RightKick.cs)
-- [训练好的onnx模型（已验证踢后能稳定站立）](models/gewu-22507482(RightKick).onnx)
+- [训练好的右踢腿onnx模型（已验证踢后能稳定站立）](models/gewu-22507482(RightKick).onnx)
 
 ### 下周计划
 
