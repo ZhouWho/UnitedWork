@@ -224,8 +224,8 @@
 
 - 完成右勾拳、左直拳两个拳类动作的模仿学习训练，均能由真实动作数据驱动、打出预期且顺滑的动作，并在出拳后保持稳定站立。
 - 产出两个动作模型：`gewu-12622793(RightHook).onnx`、`gewu-11999935(LeftStraight).onnx`，效果见录屏 `4.1.mp4`、`4.2.mp4`。
-- [训练好的右勾拳onnx模型](models/gewu-12622793(RightHook).onnx)
-- [训练好的左直拳onnx模型](models/gewu-11999935(LeftStraight).onnx)
+- [训练好的右勾拳 onnx 模型](models/gewu-12622793(RightHook).onnx)
+- [训练好的左直拳 onnx 模型](models/gewu-11999935(LeftStraight).onnx)
 
 
 ---
@@ -294,8 +294,8 @@ https://github.com/user-attachments/assets/b315ffec-9b5b-4137-9fc2-9a4d4c01ebf5
 
 
 ### 产出
-- [修改后的控制脚本G1mimic1Agent_RightKick.cs](code/G1mimic1Agent_RightKick.cs)
-- [训练好的右踢腿onnx模型（已验证踢后能稳定站立）](models/gewu-22507482(RightKick).onnx)
+- [修改后的控制脚本 G1mimic1Agent_RightKick.cs](code/G1mimic1Agent_RightKick.cs)
+- [训练好的右踢腿 onnx 模型（已验证踢后能稳定站立）](models/gewu-22507482(RightKick).onnx)
 
 ### 下周计划
 
@@ -348,17 +348,17 @@ https://github.com/user-attachments/assets/b315ffec-9b5b-4137-9fc2-9a4d4c01ebf5
 实际运行测试中，机器人能够连续 20 秒以上稳定执行左勾拳、右勾拳、左踢腿、右踢腿等动作，全程无摔倒，关节运动平滑流畅，动作过渡自然，效果很好，完全满足项目对“稳定执行”的要求。
 
 ### 运行截图与视频
-![第二周训练截图1](images/2.1.png)
-![第二周训练截图2](images/2.2.png)
+![第二周训练截图 1](images/2.1.png)
+![第二周训练截图 2](images/2.2.png)
 
 https://github.com/user-attachments/assets/4b804aa2-970e-45cd-8354-a7a6cbf37eee
 
 
 改进后的代码及训练好的模型已上传至code文件夹中：
 
-- [配置文件config.yaml](code/config.yaml)
-- [控制脚本G1mimicAgent.cs](code/G1mimicAgent.cs)
-- [模型文件gewu-20009561.onnx](models/gewu-20009561.onnx)
+- [配置文件 config.yaml](code/config.yaml)
+- [控制脚本 G1mimicAgent.cs](code/G1mimicAgent.cs)
+- [模型文件 gewu-20009561.onnx](models/gewu-20009561.onnx)
 
 
 ---
@@ -369,8 +369,8 @@ https://github.com/user-attachments/assets/4b804aa2-970e-45cd-8354-a7a6cbf37eee
 ### 工作内容
 - 安装 Unity 编辑器，部署最新版“格物”平台（G1 机器人仿真环境）。
 - 使用未改进的原始代码对拳击动作数据进行基线训练，累计 1000 万步（训练约 3 个小时）。
-![第一周训练截图1](images/1.1.png)
-![第一周训练截图2](images/1.2.png)
+![第一周训练截图 1](images/1.1.png)
+![第一周训练截图 2](images/1.2.png)
 
 ### 实际表现
 训练过程中奖励值虽逐步上升，但机器人实际仿真表现很差：执行动作时频繁摔倒，无法完成连续动作。经过分析，问题根源在于原始代码的控制增益过大、缺乏主动平衡力矩、奖励函数缺少平滑约束，且观察空间信息不足。针对上述问题，计划在下周对奖励函数与训练配置进行重点改进并重新训练。
