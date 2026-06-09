@@ -307,7 +307,7 @@ https://github.com/user-attachments/assets/b315ffec-9b5b-4137-9fc2-9a4d4c01ebf5
 ---
 
 
-## 第二周 (4.3)
+## 第二周 (4.3) - 代码优化与模型收敛
 
 ### 模型改进
 针对第一周暴露的问题，我对 `G1mimicAgent.cs` 和 `config.yaml` 代码进行了系统性改进，核心思路与改进内容如下：
@@ -364,7 +364,7 @@ https://github.com/user-attachments/assets/4b804aa2-970e-45cd-8354-a7a6cbf37eee
 ---
 
 
-## 第一周 (3.27)
+## 第一周 (3.27) - 环境搭建与基线测试
 
 ### 工作内容
 - 安装 Unity 编辑器，部署最新版“格物”平台（G1 机器人仿真环境）。
