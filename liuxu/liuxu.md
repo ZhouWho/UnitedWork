@@ -1,4 +1,64 @@
 
+## 2026-06-12 训练准备收敛阶段
+
+### 当前状态
+
+1. imitation learning baseline（BC）训练结构已最终确认  
+2. dataset loader 与 sequence pipeline 稳定性验证完成  
+3. GPU 环境、batch size、训练吞吐压测完成  
+
+### 工作重点
+
+- 系统进入“可启动训练前最终检查阶段”
+- 未引入新数据或新实验
+- 重点在训练前一致性与稳定性确认
+
+---
+
+## 2026-06-05 推理链路与环境对齐阶段
+
+### 当前状态
+1. observation normalization 统一标准化实现  
+2. sequence padding / mask 机制完成实现  
+
+### 工作重点
+
+- 解决训练 / 推理 feature mismatch 问题  
+- 验证 ONNX 推理数值一致性  
+- 保持模型结构不变，仅做系统对齐
+
+---
+
+## 2026-05-29 工程结构整理
+
+### 当前状态
+
+1. imitation learning pipeline 架构设计完成  
+2. observation / action space 统一定义完成  
+3. dataset loader 支持 variable-length sequence  
+
+### 工作重点
+
+- 构建 PyTorch training framework 基础结构  
+- ONNX → training pipeline 闭环设计完成  
+- 未进入正式训练阶段，仅工程搭建
+
+---
+
+## 2026-05-22 方案评估阶段
+
+### 本周内容
+
+1. BC / PPO / SAC imitation适配性对比完成  
+2. 确认 BC 为当前阶段 baseline 方法  
+3. locomotion / combat 分阶段训练策略确定  
+
+### 工作重点
+
+- 路径选择与方案评估  
+- 数据集保持冻结状态  
+- 未进行模型训练或数据更新
+
 ## 2026-05-15 后续规划与技术储备
 
 ### 本周工作内容
